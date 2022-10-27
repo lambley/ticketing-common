@@ -2,8 +2,12 @@
 
 Published on NPM here: https://www.npmjs.com/org/lambley-ticketing
 
-Package writtern using TypeScript v4.84, then  compiled and published as JavaScript
+Package writtern using TypeScript v4.84, then compiled and published as JavaScript
 
 Contains common functionality for:
 
-- Authorisation
+- Custom error classes
+- Authorisation middleware
+- Error handler middleware
+- Request validation middleware
+- Currentuser check middleware
